@@ -6,7 +6,7 @@ const keys = require('./config/keys');
 require('./models/User');
 require('./services/passport');//just excute the passport file
 
-mongoose.connect('mongodb+srv://lukesy0:x3T4hik7HJ8Z5qTZ@cluster0.7jbxvk4.mongodb.net/?retryWrites=true&w=majority');
+// mongoose.connect('mongodb+srv://lukesy0:x3T4hik7HJ8Z5qTZ@cluster0.7jbxvk4.mongodb.net/?retryWrites=true&w=majority');
 
 const app = express();
 
